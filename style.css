@@ -1,0 +1,169 @@
+body {
+	background: white;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	margin: 0px;
+}
+
+h1 {
+	color: white;
+	font-size: 40px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+	color: black;
+	font-family: 'Montserrat', sans-serif;;
+	font-size: 700;
+	line-height: 2;
+}
+
+h3 {
+	color: black;
+	font-family: 'Montserrat', sans-serif;;
+	font-weight: 400;
+}
+
+.title {
+	margin-bottom: 20px;
+	margin-top: 20px;
+	font-size: 20px;
+	text-align: center;
+}
+
+.btn-orange {
+	background-color: #ff7315;
+	color: white;
+	padding: 20px 30px;
+	border-radius: 2px;
+	text-decoration: none;
+	border-radius: 30px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.btn-orange:hover {
+	background-color: black;
+	color: white;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.banner {
+	background-image: url(images/background.png);
+	background-size: cover;
+	color: white;
+	text-align: center;
+	padding: 100px 0px;
+}
+
+.banner h1 {
+	font-size: 40px;
+	font-weight: 700;
+}
+
+.banner p{
+	font-size: 24px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	margin-bottom: 70px;
+	margin-top: 30px;
+	text-align: center;
+}
+
+.container {
+  margin: auto;
+}
+
+.program {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 30px;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 16px;
+  margin-bottom: 24px;
+}
+
+
+.card-white {
+  background-color: white;
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  padding: 16px;
+  margin: 16px 0px;
+  width: 100%;
+  flex-grow: 1;
+}
+
+@media (max-width: 800px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+// Smallest device
+@media (min-width: 100px) 
+.container {
+  max-width: 575px;
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px)
+.container {
+    max-width: 540px;
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px)
+.container {
+    max-width: 720px;
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px)
+.container {
+    max-width: 960px;
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px)
+.container {
+    max-width: 1140px;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.list-inline li {
+    display: inline;
+    padding: 20px;
+    height: 20px;
+}
+
+.footer {
+  background: #363636;
+  text-align: center;
+  padding: 24px 0;
+  color: white;
+}
+
+.footer a {
+  color: white;
+  font-size: 32px;
+}
+
+.footer a:hover {
+	color: #ff7315;
+}
+
+.footer p {
+	font-family: 'Montserrat', sans-serif;
+}
